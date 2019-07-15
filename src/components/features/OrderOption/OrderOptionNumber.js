@@ -4,7 +4,7 @@ import styles from './OrderOption.scss';
 
 
 
-const OrderOptionNumber = ({id, name, type, price, limits, currentValue, setOptionValue}) => (
+const OrderOptionNumber = ({limits, currentValue, setOptionValue}) => (
   <div className={styles.number}>
     <input
       type='number'
